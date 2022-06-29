@@ -1,0 +1,112 @@
+@media (max-width:888px) and (min-width:400px) {
+    .devpic img {
+        position: relative;
+        left:25px;
+       margin-right: 0%;
+        margin-top: -70px;
+        width: 120px;
+        height: 140px; 
+    }
+    .devinfo {
+        font-size: 15px; 
+    }
+    .devinfo li {
+        margin: 3px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #resumebtn {
+        margin-top: 20px;   
+        border-radius: 12px;
+        height: 20px;
+        width: 70px;
+        font-weight: bold;
+    }
+    #btn {
+        font-size: 12px;  
+    }
+    .downld{
+      font-size: 12px;
+    }
+    #sidebar nav li {
+        width: 19vw;
+        margin-left: 0px;
+        padding: 19px;
+        font-size: 15px;}
+        #sidebar nav a {         
+         padding: 7px;
+         font-size: 15px;
+        }
+        .container{
+            height: 110vw;
+        }
+}
+/* less than 400px */
+@media (max-width:400px) and (min-width:0px) {
+    .devpic img {
+        position: relative;
+        left:20px;
+       top: -90px;
+       margin-right: 0%;
+        margin-top: 20px;
+        width: 80px;
+        height: 100px; 
+    }
+    .devinfo  {
+       padding: 3px;
+        margin-top: 20px;
+        font-size: 12px; 
+font-weight: bold;
+    }
+    
+    #resumebtn {
+      margin-top: -90px;   
+        border-radius: 9px;
+        height: 20px;
+        width: 55px;
+        
+    }
+    .container{
+        height: 100vw;
+    }
+    #btn {
+        font-size: 9px;  
+    }
+    .downld{
+      font-size: 5px;
+    }
+    #sidebar nav li {
+        width: 25vw;
+        margin-left: 0px;
+        padding: 9px;
+        font-size: 17px;}
+        #sidebar nav a {         
+         padding: 1px;
+         font-size: 15px;
+        }
+       h2{
+        font-size: 15px;
+        overflow: hidden;
+       
+       }
+       .logo img{
+        width: 60px;
+       height: 60px;
+        
+        margin: 2px;
+    }
+
+}
+/* 0-250px */
+@media (max-width:300px) and (min-width:0px) {
+    body{
+        flex-shrink: 1;
+        overflow-x: hidden;
+      
+    }
+   
+}
+
+
+
+

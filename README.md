@@ -1,2 +1,2 @@
 
-https://anjalijaiswal23.github.io/portfolioanjali.github.io/#contact
+https://anjalijaiswal23.github.io/portfolioanjali.github.io/
